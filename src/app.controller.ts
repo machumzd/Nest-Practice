@@ -13,4 +13,8 @@ export class AppController {
   getGoodbye(): string {
     return this.appService.getGoodbye();
   }
+  @Get('/welcome')
+  getWelcome(): string {
+    return this.appService.getWelcome();
+  }
 }
